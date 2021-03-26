@@ -9,7 +9,7 @@
 }
 
 .user-img{
-    background-image:url('/img/foto.jpg');
+    background-image:url('../img/foto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px, 0px;
