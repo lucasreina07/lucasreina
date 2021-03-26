@@ -97,7 +97,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#computer").click(function () {
         $(".anclar1").addClass('anclar-style');
-        $('.anclar1').css('background-image', 'url("../img/computer-5.png")');
+        $('.anclar1').css("background-image", "url('../img/computer-5.png')");
         $('.anclar1').css('display', 'flex');
     });
     $("#skills").click(function () {
