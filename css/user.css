@@ -59,7 +59,7 @@
 }
 
 .visit{
-    background-image:url('/img/internet_connection.png');
+    background-image:url('../img/internet_connection.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 16px;
