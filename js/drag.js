@@ -97,22 +97,22 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#computer").click(function () {
         $(".anclar1").addClass('anclar-style');
-        $('.anclar1').css('background-image', 'url("/img/computer-5.png")');
+        $('.anclar1').css('background-image', 'url("../img/computer-5.png")');
         $('.anclar1').css('display', 'flex');
     });
     $("#skills").click(function () {
         $(".anclar2").addClass('anclar-style');
-        $('.anclar2').css('background-image', 'url("/img/cd_drive.png")');
+        $('.anclar2').css('background-image', 'url("../img/cd_drive.png")');
         $('.anclar2').css('display', 'block');
     });
     $("#proyectos").click(function () {
         $(".anclar3").addClass('anclar-style');
-        $('.anclar3').css('background-image', 'url("/img/directory_closed.png")');
+        $('.anclar3').css('background-image', 'url("../img/directory_closed.png")');
         $('.anclar3').css('display', 'block');
     });
     $("#contactar").click(function () {
         $(".anclar4").addClass('anclar-style');
-        $('.anclar4').css('background-image', 'url("/img/outlook_express-5.png")');
+        $('.anclar4').css('background-image', 'url("../img/outlook_express-5.png")');
         $('.anclar4').css('display', 'block');
     });
     $("#x").click(function () {

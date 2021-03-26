@@ -43,7 +43,7 @@
 */
 
 .icon-mycomputer{
-    background-image: url("/img/computer-5.png");
+    background-image: url("../img/computer-5.png");
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -51,7 +51,7 @@
 }
 
 .icon-skills{
-    background-image: url("/img/cd_drive.png");
+    background-image: url("../img/cd_drive.png");
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -60,7 +60,7 @@
 
 
 .icon-proyects{
-    background-image: url("/img/directory_closed.png");
+    background-image: url("../img/directory_closed.png");
     background-size: cover;
     width: 40px;
     height: 40px;
@@ -68,7 +68,7 @@
 }
 
 .icon-contacts{
-    background-image: url("/img/outlook_express-5.png");
+    background-image: url("../img/outlook_express-5.png");
     background-size: cover;
     width: 40px;
     height: 40px;
