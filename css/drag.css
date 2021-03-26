@@ -1,0 +1,162 @@
+.window-drag, .window-drag1, .window-drag2, .window-drag3  {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drag, #drag1, #drag2, #drag3{
+    display: none;
+    position: absolute;
+    z-index: 6;
+    /*background: #C6C6C6;*/
+    border: 3px solid #EFEFEF;
+    /*animation: drag-animation 0.1s;*/
+}
+
+.cnt-drag{
+    position: fixed !important;
+}
+
+
+@keyframes drag-animation{
+    0%{
+        transform: translateX(-42%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.row-drag{
+    color: white;
+    background: #000080;
+}
+
+.draggable{
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    background: #000080;
+    padding: 5px;
+}
+
+.title-carp{
+    display: flex;
+    align-items: center;
+}
+
+.btn-window-show{
+    display: flex;
+}
+
+.w-show{
+    margin: 0px 3px;
+    border: 1px solid black;
+}
+
+.btn-x,.btn-min{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    width: 18px;
+    height: 18px;
+    background: #C6C6C6;
+    text-align: center;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.col-drag{
+    border: 6px solid #C6C6C6;
+    /*z-index: 10;*/
+}
+
+.border-drag{
+    border: 0.5px solid #EFEFEF;
+}
+
+.content-drag{
+    border: 3px solid #C6C6C6;
+}
+
+.content-drag-docs{
+    color: black;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 0.5px solid black;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.zindex{
+    z-index: 9;
+}
+
+
+
+@media screen and (max-width: 400px){
+    .window-drag{
+        width: 100%;
+        height: 700px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #drag, #drag1, #drag2, #drag3{
+        top: 2%;
+        display: none;
+        z-index: 6;
+    }
+    .content-drag-docs{
+        color: black;
+        width: 250px;
+        height: 620px;
+        background-color: white;
+        border: 0.5px solid black;
+        display: table;
+    }
+}
+
+@media screen and (max-width: 825px){
+    .window-drag{
+        width: 100%;
+        height: 700px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #drag, #drag1, #drag2, #drag3{
+        top: 2%;
+        display: none;
+        z-index: 6;
+    }
+    .content-drag-docs{
+        color: black;
+        width: 250px;
+        height: 620px;
+        background-color: white;
+        border: 0.5px solid black;
+        display: table;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .content-drag-docs{
+        width: 825px;
+        height: 400px;
+        transition: 0.5s;
+    }
+}
+

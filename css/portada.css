@@ -1,0 +1,112 @@
+
+
+
+/*
+*
+*   Estilos y animacion de Maquina de escribit
+*   DESUSI AHORA SE IMPLEMENTO JS
+*
+*
+*/
+/*
+.h1-maquina-escribir{
+    font-size: 2.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+*/
+/*
+.h1-maquina-escribir span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgb(0, 0, 0);
+    /*
+    *
+    *Efectos de animacion de maquina de escribir CSS
+    *animation: maquina 3s infinite alternate steps(23);
+    *
+    */
+    /*
+    animation: steps(23);
+    animation-name: maquina;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -o-animation-direction: alternate;
+}
+*/
+/*
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+*/
+
+
+/*
+*
+*   efecto del contenedor de la portada 
+*   Psudo Clase para Maquina de escribir
+*
+*
+*
+*/
+
+.h1-maquina-escribir{
+    /*transform: translateY(150px);*/
+    font-size: 2.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    /*position: relative;*/
+}
+
+.h1-maquina-escribir::after{
+    content: "|";
+    animation-name: parpadeo;
+    animation-duration: 1.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes parpadeo{
+    0%{opacity: 1.0;}
+    50%{opacity: 0.0;}
+    100{opacity: 1.0;}
+}
+
+.p-prt{
+    font-size: 1.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    /*transform: translateY(150px);*/
+    /*position: relative;*/
+}
+
+
+/*
+*
+*   Media Queris
+*   Responsive - Portada
+*
+*
+*/
+
+@media screen and (max-width: 400px){
+    .h1-maquina-escribir{
+        font-size: 1.5em;
+    }
+    .p-prt{
+        font-size: 1em;
+        margin-top: 3em;
+    }
+}

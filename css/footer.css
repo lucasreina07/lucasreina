@@ -1,0 +1,76 @@
+.cnt-footer{
+    background: #BDBEBD;
+    border-top: 3px solid white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    margin: 0px 0px;
+    z-index: 10;
+}
+
+.col-1-footer{
+    align-items: center;
+    display: inline;
+}
+
+.star{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.star-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.star-img{
+    background-image: url("/img/windows-4.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+/*
+*
+*
+*
+*
+*
+*/
+
+.anclar{
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+
+.anclar-style{
+    /*background-image: url("/img/computer-5.png");*/
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+
+
