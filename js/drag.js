@@ -10,7 +10,7 @@
 /*
 $(document).ready(function () {
     $('#drag').draggable({
-        containment: 'document',
+        containment: 'parent',
         cursor: 'grabbing',
         delay: 100,
         cancel: '.content-drag-docs, .col-drag, .content-drag, .border-drag, .btn-window-show',

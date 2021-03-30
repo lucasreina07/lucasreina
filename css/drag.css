@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 0;
 }
 
 #drag, #drag1, #drag2, #drag3{
